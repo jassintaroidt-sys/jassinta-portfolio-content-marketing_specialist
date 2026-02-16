@@ -103,11 +103,12 @@ const ProjectShowcase: React.FC<ProjectShowcaseProps> = ({ project, showVideos =
               {project.videos.map((vid, idx) => (
                 <div key={idx} className="flex flex-col items-center group">
                   
-                  <div className="relative w-full aspect-[9/16] rounded-3xl overflow-hidden shadow-xl">
+                  <div className="relative w-full aspect-[9/16] rounded-3xl overflow-hidden shadow-xl bg-black">
                     
-                    {/* ✅ VIDEO FIX */}
+                    {/* 🚀 FAST LOADING VIDEO */}
                     <video
                       src={vid.thumbnail}
+                      preload="none"
                       className="w-full h-full object-cover"
                       autoPlay
                       muted
@@ -143,9 +144,10 @@ const ProjectShowcase: React.FC<ProjectShowcaseProps> = ({ project, showVideos =
           {project.name} Bumper
         </div>
 
-        {/* ✅ VIDEO FIX */}
+        {/* 🚀 FAST LOADING BUMPER */}
         <video
           src={project.bumper}
+          preload="none"
           className="w-full h-full object-cover"
           autoPlay
           muted
