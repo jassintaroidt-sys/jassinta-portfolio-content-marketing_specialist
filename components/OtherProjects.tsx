@@ -18,7 +18,7 @@ const OtherProjects: React.FC = () => {
         <div className="flex-1 h-[50vh] md:h-full relative group overflow-hidden rounded-3xl md:rounded-none">
           
           <video
-            src="/videos/another_project_1.mp4"
+            src="videos/another_project_1.mp4"
             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
             autoPlay
             muted
@@ -37,7 +37,7 @@ const OtherProjects: React.FC = () => {
         <div className="flex-1 h-[50vh] md:h-full relative group overflow-hidden rounded-3xl md:rounded-none">
           
           <video
-            src="/videos/another_project_2.mp4"
+            src="videos/another_project_2.mp4"
             className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
             autoPlay
             muted
