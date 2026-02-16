@@ -108,7 +108,7 @@ const ProjectShowcase: React.FC<ProjectShowcaseProps> = ({ project, showVideos =
                     {/* 🚀 FAST LOADING VIDEO */}
                     <video
                       src={vid.thumbnail}
-                      preload="none"
+                      preload="metadata"
                       className="w-full h-full object-cover"
                       autoPlay
                       muted
@@ -147,7 +147,7 @@ const ProjectShowcase: React.FC<ProjectShowcaseProps> = ({ project, showVideos =
         {/* 🚀 FAST LOADING BUMPER */}
         <video
           src={project.bumper}
-          preload="none"
+          preload="metadata"
           className="w-full h-full object-cover"
           autoPlay
           muted
