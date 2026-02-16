@@ -163,6 +163,6 @@ export const PROJECTS: ProjectData[] = [
       logo: "images/logo_3.png"
     },
     videos: [], // No videos for this one per prompt
-    bumper: "videos/AISHI_AESTHETIC_BUMPER.mp4"
+    bumper: "videos/temp.mp4"
   }
 ];
