@@ -81,11 +81,11 @@ export const PROJECTS: ProjectData[] = [
       logo: "images/logo_1.png"
     },
     videos: [
-      { thumbnail: "/videos/kecantikan_1.mp4", link: "https://vt.tiktok.com/ZSmhV6US5/" },
-      { thumbnail: "/videos/kecantikan_2.mp4", link: "https://vt.tiktok.com/ZSmhVSoP9/" },
-      { thumbnail: "/videos/kecantikan_3.mp4", link: "https://vt.tiktok.com/ZSmhVfbga/" }
+      { thumbnail: "videos/kecantikan_1.mp4", link: "https://vt.tiktok.com/ZSmhV6US5/" },
+      { thumbnail: "videos/kecantikan_2.mp4", link: "https://vt.tiktok.com/ZSmhVSoP9/" },
+      { thumbnail: "videos/kecantikan_3.mp4", link: "https://vt.tiktok.com/ZSmhVfbga/" }
     ],
-    bumper: "/videos/ELSTHETIC_BUMPER.mp4"
+    bumper: "videos/ELSTHETIC_BUMPER.mp4"
   },
   {
     id: 'karamina',
@@ -110,11 +110,11 @@ export const PROJECTS: ProjectData[] = [
       logo: "images/logo_4.png"
     },
     videos: [
-      { thumbnail: "/videos/travel_2.mp4", link: "https://vt.tiktok.com/ZSmhVecWQ/" },
-      { thumbnail: "/videos/travel_1.mp4", link: "https://vt.tiktok.com/ZSmhVrxSx/" },
-      { thumbnail: "/videos/travel_3.mp4", link: "https://vt.tiktok.com/ZSmhVkj1L/" }
+      { thumbnail: "videos/travel_2.mp4", link: "https://vt.tiktok.com/ZSmhVecWQ/" },
+      { thumbnail: "videos/travel_1.mp4", link: "https://vt.tiktok.com/ZSmhVrxSx/" },
+      { thumbnail: "videos/travel_3.mp4", link: "https://vt.tiktok.com/ZSmhVkj1L/" }
     ],
-    bumper: "/videos/KARAMINA_TOUR_BUMPER.mp4"
+    bumper: "videos/KARAMINA_TOUR_BUMPER.mp4"
   },
   {
     id: 'elspresso',
@@ -140,11 +140,11 @@ export const PROJECTS: ProjectData[] = [
       logo: "images/logo_2.png"
     },
     videos: [
-      { thumbnail: "/videos/kuliner_1.mp4", link: "https://www.instagram.com/reel/DMUwp8qBd5J/?igsh=czBnc3A3YXJlcW54" },
-      { thumbnail: "/videos/kuliner_2.mp4", link: "https://www.instagram.com/reel/DMkb0mKhkus/?igsh=MXNuZjVndzd5d200Nw==" },
-      { thumbnail: "/videos/kuliner_3.mp4", link: "https://www.instagram.com/reel/DMaBAg8B0tG/?igsh=MXA0dGpkanZlamd4MQ==" }
+      { thumbnail: "videos/kuliner_1.mp4", link: "https://www.instagram.com/reel/DMUwp8qBd5J/?igsh=czBnc3A3YXJlcW54" },
+      { thumbnail: "videos/kuliner_2.mp4", link: "https://www.instagram.com/reel/DMkb0mKhkus/?igsh=MXNuZjVndzd5d200Nw==" },
+      { thumbnail: "videos/kuliner_3.mp4", link: "https://www.instagram.com/reel/DMaBAg8B0tG/?igsh=MXA0dGpkanZlamd4MQ==" }
     ],
-    bumper: "/videos/ELS_BUMPER.mp4"
+    bumper: "videos/ELS_BUMPER.mp4"
   },
   {
     id: 'aishi',
@@ -163,6 +163,6 @@ export const PROJECTS: ProjectData[] = [
       logo: "images/logo_3.png"
     },
     videos: [], // No videos for this one per prompt
-    bumper: "/videos/AISHI_AESTHETIC_BUMPER.mp4"
+    bumper: "videos/AISHI_AESTHETIC_BUMPER.mp4"
   }
 ];
